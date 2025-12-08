@@ -1,0 +1,36 @@
+📦 Technologies & Libraries Used
+
+This project leverages several powerful libraries and tools to enhance UI/UX, routing, styling, animations, and functionality.
+
+🔧 Core Framework
+
+React — For building the UI using component-based architecture.
+
+🎨 Styling & UI Enhancements
+
+Tailwind CSS
+➤ Utility-first CSS framework used for responsive and modern UI styling.
+
+React Icons
+➤ Provides a wide range of icons from popular libraries like FontAwesome, HeroIcons, Material Icons, etc.
+
+Prop-Types
+➤ Used to validate component props and prevent bugs by ensuring proper data structure.
+
+✨ Animations & Effects
+
+react-parallax-tilt
+➤ Used to create interactive card tilt effects on hover for better visual engagement.
+
+typewriter-effect
+➤ Used for dynamic typing animation for headings or intro text to make it visually appealing.
+
+🔔 Notifications
+
+React Toastify
+➤ Used to display toast alerts for success, error, and information messages in a clean and user-friendly way.
+
+📧 Email Integration
+
+EmailJS (@emailjs/browser)
+➤ Enables sending emails directly from the frontend (useful for contact forms without needing a backend).
