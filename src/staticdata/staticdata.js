@@ -1,287 +1,229 @@
 // Skills Section Logo's
-import htmlLogo from '../assets/tech_logo/html.png';
-import cssLogo from '../assets/tech_logo/css.png';
-import sassLogo from '../assets/tech_logo/sass.png';
-import javascriptLogo from '../assets/tech_logo/javascript.png';
-import reactjsLogo from '../assets/tech_logo/reactjs.png';
-import angularLogo from '../assets/tech_logo/angular.png';
-import reduxLogo from '../assets/tech_logo/redux.png';
-import materialuiLogo from '../assets/tech_logo/materialui.png';
-import bootstrapLogo from '../assets/tech_logo/bootstrap.png';
-import springbootLogo from '../assets/tech_logo/springboot.png';
-import mysqlLogo from '../assets/tech_logo/mysql.png';
-import mongodbLogo from '../assets/tech_logo/mongodb.png';
-import cLogo from '../assets/tech_logo/c.png';
-import cppLogo from '../assets/tech_logo/cpp.png';
-import javaLogo from '../assets/tech_logo/java.png';
-import typescriptLogo from '../assets/tech_logo/typescript.png';
-import gitLogo from '../assets/tech_logo/git.png';
-import githubLogo from '../assets/tech_logo/github.png';
-import vscodeLogo from '../assets/tech_logo/vscode.png';
-import postmanLogo from '../assets/tech_logo/postman.png';
+import htmlLogo from "../assets/tech_logo/html.png";
+import cssLogo from "../assets/tech_logo/css.png";
+import javascriptLogo from "../assets/tech_logo/javascript.png";
+import reactjsLogo from "../assets/tech_logo/reactjs.png";
+import angularLogo from "../assets/tech_logo/angular.png";
+import reduxLogo from "../assets/tech_logo/redux.png";
+import materialuiLogo from "../assets/tech_logo/materialui.png";
+import bootstrapLogo from "../assets/tech_logo/bootstrap.png";
+import springbootLogo from "../assets/tech_logo/springboot.png";
+import mysqlLogo from "../assets/tech_logo/mysql.png";
+import cLogo from "../assets/tech_logo/c.png";
+import cppLogo from "../assets/tech_logo/cpp.png";
+import javaLogo from "../assets/tech_logo/java.png";
+import typescriptLogo from "../assets/tech_logo/typescript.png";
+import gitLogo from "../assets/tech_logo/git.png";
+import githubLogo from "../assets/tech_logo/github.png";
+import vscodeLogo from "../assets/tech_logo/vscode.png";
+import postmanLogo from "../assets/tech_logo/postman.png";
+import tailwindcssLogo from "../assets/tech_logo/tailwindcss.png";
+import nodejsLogo from "../assets/tech_logo/nodejs.png";
 
 // Experience Section Logo's
-import nagarroLogo from '../assets/company_logo/nagarro.png';
-import atcsLogo from '../assets/company_logo/atcs.png';
-
+import nagarroLogo from "../assets/company_logo/nagarro.png";
+import atcsLogo from "../assets/company_logo/atcs.png";
 
 // Project Section Logo's
-import githubdetLogo from '../assets/work_logo/github_det.png';
-import csprepLogo from '../assets/work_logo/cs_prep.png';
-import movierecLogo from '../assets/work_logo/movie_rec.png';
-import taskremLogo from '../assets/work_logo/task_rem.png';
-import npmLogo from '../assets/work_logo/npm.png';
-import webverLogo from '../assets/work_logo/web_dig.png';
-import cmLogo from '../assets/work_logo/cm.png';
-import imagesearchLogo from '../assets/work_logo/image_search.png';
-import removebgLogo from '../assets/work_logo/remove_bg.png';
-import sspsLogo from '../assets/education_logo/ssps_logo.png';
-import jecrcLogo from '../assets/education_logo/jecrc_logo.png';
-import WorkfrontLogo from '../assets/tech_logo/workfront_logo.png';
+import githubdetLogo from "../assets/work_logo/github_det.png";
+import csprepLogo from "../assets/work_logo/cs_prep.png";
+import movierecLogo from "../assets/work_logo/movie_rec.png";
+import taskremLogo from "../assets/work_logo/task_rem.png";
+import npmLogo from "../assets/work_logo/npm.png";
+import webverLogo from "../assets/work_logo/web_dig.png";
+import cmLogo from "../assets/work_logo/cm.png";
+import imagesearchLogo from "../assets/work_logo/image_search.png";
+import removebgLogo from "../assets/work_logo/remove_bg.png";
+import sspsLogo from "../assets/education_logo/ssps_logo.png";
+import jecrcLogo from "../assets/education_logo/jecrc_logo.png";
+import WorkfrontLogo from "../assets/tech_logo/workfront_logo.png";
 // import powerappsLogo from '../assets/tech_logo/powerapps_logo'
 
-
 export const SkillsInfo = [
-    {
-        title: 'Frontend',
-        skills: [
-            { name: 'HTML', logo: htmlLogo },
-            { name: 'CSS', logo: cssLogo },
-            // { name: 'SASS', logo: sassLogo },
-            { name: 'JavaScript', logo: javascriptLogo },
-            { name: 'React JS', logo: reactjsLogo },
-            { name: 'Angular', logo: angularLogo },
-            { name: 'Redux', logo: reduxLogo },
-            // { name: 'Next JS', logo: nextjsLogo },
-            // { name: 'Tailwind CSS', logo: tailwindcssLogo },
-            // { name: 'GSAP', logo: gsapLogo },
-            { name: 'Material UI', logo: materialuiLogo },
-            { name: 'Bootstrap', logo: bootstrapLogo },
-        ],
-    },
-    {
-        title: 'Backend',
-        skills: [
-            { name: 'Springboot', logo: springbootLogo },
-            // { name: 'Node JS', logo: nodejsLogo },
-            // { name: 'Express JS', logo: expressjsLogo },
-            { name: 'MySQL', logo: mysqlLogo },
-            // { name: 'MongoDB', logo: mongodbLogo },
-            // { name: 'Firebase', logo: firebaseLogo },
-            // { name: 'PostgreSQL', logo: postgreLogo },
-        ],
-    },
-    {
-        title: 'Languages',
-        skills: [
-            { name: 'C', logo: cLogo },
-            { name: 'C++', logo: cppLogo },
-            { name: 'Java', logo: javaLogo },
-            // { name: 'Python', logo: pythonLogo },
-            // { name: 'C-Sharp', logo: csharpLogo },
-            { name: 'JavaScript', logo: javascriptLogo },
-            { name: 'TypeScript', logo: typescriptLogo },
-        ],
-    },
-    {
-        title: 'Tools',
-        skills: [
-            { name: 'Git', logo: gitLogo },
-            { name: 'GitHub', logo: githubLogo },
-            { name: 'VS Code', logo: vscodeLogo },
-            { name: 'Postman', logo: postmanLogo },
-            { name: 'Workfront', logo: WorkfrontLogo },
-            { name: 'Workfront Fusion', logo: WorkfrontLogo },
-            { name: 'PowerApps', logo: WorkfrontLogo },
-        ],
-    },
+  {
+    title: "Frontend",
+    skills: [
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Angular", logo: angularLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Material UI", logo: materialuiLogo },
+      { name: "Bootstrap", logo: bootstrapLogo },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      { name: "Springboot", logo: springbootLogo },
+      { name: "Node JS", logo: nodejsLogo },
+      { name: "MySQL", logo: mysqlLogo },
+    ],
+  },
+  {
+    title: "Languages",
+    skills: [
+      { name: "C", logo: cLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "TypeScript", logo: typescriptLogo },
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Workfront", logo: WorkfrontLogo },
+      { name: "Workfront Fusion", logo: WorkfrontLogo },
+      { name: "PowerApps", logo: WorkfrontLogo },
+    ],
+  },
 ];
 
 export const experiences = [
-    {
-        id: 0,
-        img: nagarroLogo,
-        role: "Engineer",
-        company: "Nagarro",
-        date: "Jan 2024 - Present",
-        desc: "Working as an Engineer focusing on frontend and backend development using modern web technologies. Contributing to scalable solutions in a hybrid environment.",
-        skills: [
-            "CSS",
-            "Spring Framework",
-            "React",
-            "JavaScript",
-            "REST APIs"
-        ],
-    },
-    {
-        id: 1,
-        img: nagarroLogo,
-        role: "Associate Engineer",
-        company: "Nagarro",
-        date: "Jan 2023 - Mar 2024",
-        desc: "Worked as an Associate Engineer, contributing to Java-based applications using JDBC, JSP, and Spring technologies.",
-        skills: [
-            "JDBC",
-            "JSP",
-            "Java",
-            "Spring Framework"
-        ],
-    },
-    {
-        id: 2,
-        img: atcsLogo,
-        role: "Trainee Engineer - Java",
-        company: "ATCS Inc.",
-        date: "Jul 2022 - Dec 2022",
-        desc: "Full-time Trainee Engineer gaining hands-on experience in Spring Boot, Java, MySQL, and JPA/Hibernate. Worked on real production projects, contributing to new enhancement features on the Java backend and supporting modules integrated with Workfront.",
-        skills: [
-            "Spring Framework",
-            "Spring Boot",
-            "Java",
-            "REST APIs",
-            "MySQL",
-            "Workfront"
-        ],
-    },
-    {
-        id: 3,
-        img: atcsLogo,
-        role: "Internship Trainee",
-        company: "ATCS Inc.",
-        date: "Jan 2022 - Jul 2022",
-        desc: "Worked remotely as an intern, focusing on learning Spring Framework, REST APIs, and Core Java backend fundamentals.",
-        skills: [
-            "Spring Framework",
-            "REST APIs",
-            "Java",
-            "HTML",
-            "CSS",
-            "Java Script"
-        ],
-    }
+  {
+    id: 0,
+    img: nagarroLogo,
+    role: "Engineer",
+    company: "Nagarro",
+    date: "Jan 2024 - Present",
+    desc: `🚀 Led the modernization of legacy InfoPath workflows by building PowerApps solutions from scratch and integrating them with SharePoint.
+🔐 Developed role-based React applications to manage and visualize large datasets with advanced table actions, filters, sorting, and CRUD operations.
+⚡ Enhanced performance using useMemo, lazy loading, and Context API for clean architectural design and faster rendering.
+📊 Built a high-performance dashboard with dynamic filters and virtualized dropdowns to keep the UI smooth—even with large-scale data.`,
+    skills: [
+      "React.js",
+      "Spring Boot",
+      "Java",
+      "REST APIs",
+      "PowerApps",
+      "Workfront Fusion",
+    ],
+  },
+  {
+    id: 1,
+    img: nagarroLogo,
+    role: "Associate Engineer",
+    company: "Nagarro",
+    date: "Jan 2023 - Mar 2024",
+    desc: "🚀 Contributed as an Associate Engineer to Java-based application development using JPA/Hibernate, JSP, REST APIs, and Spring Framework, while also building a fully responsive single-page application using Angular 📍.",
+    skills: [
+      "JPA/Hibernate",
+      "JSP",
+      "Java",
+      "Spring Framework",
+      "Angular",
+      "MySQL",
+    ],
+  },
+  {
+    id: 2,
+    img: atcsLogo,
+    role: "Trainee Engineer - Java",
+    company: "ATCS Inc.",
+    date: "Jul 2022 - Dec 2022",
+    desc: "🚀 Full-time Trainee Engineer gaining hands-on experience in ☕ Java, 🌿 Spring Boot, 🗄️ MySQL, and 🧩 JPA/Hibernate. Worked on real production applications, contributing to backend enhancements and supporting modules integrated with Workfront.",
+    skills: [
+      "Spring Framework",
+      "Spring Boot",
+      "Java",
+      "REST APIs",
+      "MySQL",
+      "Workfront",
+    ],
+  },
+  {
+    id: 3,
+    img: atcsLogo,
+    role: "Internship Trainee",
+    company: "ATCS Inc.",
+    date: "Jan 2022 - Jul 2022",
+    desc: "🎓 Remote intern gaining foundational backend skills in Core Java, Spring Framework, and REST API development.",
+    skills: [
+      "Spring Framework",
+      "REST APIs",
+      "Java",
+      "HTML",
+      "CSS",
+      "Java Script",
+    ],
+  },
 ];
 
-
 export const education = [
-    {
-        id: 0,
-        img: jecrcLogo,
-        school: "JECRC University",
-        date: "Sept 2018 - Aug 2022",
-        grade: "73.2%",
-        desc: "I completed my B.Tech in Computer Science Engineering (CSE). During my studies, I built a strong foundation in frontend development along with basic backend concepts. I worked on projects involving HTML, CSS, JavaScript, React, and also explored APIs, databases, and server-side fundamentals. My B.Tech journey helped me develop practical problem-solving skills and real development experience.",
-        degree: "B.Tech in Computer Science Engineering (CSE)",
-    },
-    {
-        id: 1,
-        img: sspsLogo,
-        school: "Saint Soldier Public School",
-        date: "Apr 2017 - March 2018",
-        grade: "70%",
-        desc: "I completed my class 12 education from Saint Soldier Public School, Jaipur, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
-        degree: "CBSE(XII) - Science & Maths",
-    },
-    {
-        id: 2,
-        img: sspsLogo,
-        school: "Saint Soldier Public School Jaipur, Rajasthan",
-        date: "Apr 2015 - March 2016",
-        grade: "76%",
-        desc: "I completed my class 10 education from Saint Soldier Public School, Jaipur, under the CBSE board.",
-        degree: "CBSE(X)",
-    },
-
+  {
+    id: 0,
+    img: jecrcLogo,
+    school: "JECRC University",
+    date: "Sept 2018 - Aug 2022",
+    grade: "73.2%",
+    desc: "I completed my B.Tech in Computer Science Engineering (CSE). During my studies, I built a strong foundation in frontend development along with basic backend concepts. I worked on projects involving HTML, CSS, JavaScript, React, and also explored APIs, databases, and server-side fundamentals. My B.Tech journey helped me develop practical problem-solving skills and real development experience.",
+    degree: "B.Tech in Computer Science Engineering (CSE)",
+  },
+  {
+    id: 1,
+    img: sspsLogo,
+    school: "Saint Soldier Public School",
+    date: "Apr 2017 - March 2018",
+    grade: "70%",
+    desc: "I completed my class 12 education from Saint Soldier Public School, Jaipur, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+    degree: "CBSE(XII) - Science & Maths",
+  },
+  {
+    id: 2,
+    img: sspsLogo,
+    school: "Saint Soldier Public School Jaipur, Rajasthan",
+    date: "Apr 2015 - March 2016",
+    grade: "76%",
+    desc: "I completed my class 10 education from Saint Soldier Public School, Jaipur, under the CBSE board.",
+    degree: "CBSE(X)",
+  },
 ];
 
 export const projects = [
-    {
-        id: 0,
-        title: "GitHub Profile Detective",
-        description:
-            "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-        image: githubdetLogo,
-        tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-        github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-        webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-        id: 1,
-        title: "CS Prep",
-        description:
-            "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-        image: csprepLogo,
-        tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/codingmastr/CSPrep",
-        webapp: "https://csprep.netlify.app/",
-    },
-    {
-        id: 2,
-        title: "Movie Recommendation App",
-        description:
-            "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-        image: movierecLogo,
-        tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/codingmastr/Movie-Recommendation-App",
-        webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-        id: 3,
-        title: "Email Validator NPM Package",
-        description:
-            "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-        image: npmLogo,
-        tags: ["React JS", "Node.js", "NPM", "Validation"],
-        github: "https://github.com/codingmastr/cmtk-email-validator",
-        webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-        id: 4,
-        title: "Task Reminder Chrome Extension Tool",
-        description:
-            "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-        image: taskremLogo,
-        tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-        github: "https://github.com/codingmastr/Task-Reminder-Tool",
-        webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-        id: 5,
-        title: "Webverse Digital",
-        description:
-            "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-        image: webverLogo,
-        tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-        github: "https://github.com/codingmastr/Webverse-Digital",
-        webapp: "https://webversedigital.com/",
-    },
-    {
-        id: 6,
-        title: "Coding Master",
-        description:
-            "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-        image: cmLogo,
-        tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-        github: "https://codingmasterweb.in/",
-        webapp: "https://codingmasterweb.in/",
-    },
-    {
-        id: 7,
-        title: "Image Search App",
-        description:
-            "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-        image: imagesearchLogo,
-        tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-        github: "https://github.com/codingmastr/Image-Search-App",
-        webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-        id: 8,
-        title: "Image Background Remover",
-        description:
-            "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-        image: removebgLogo,
-        tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-        github: "https://github.com/codingmastr/Image-Background-Remover",
-        webapp: "https://removeyourbg.netlify.app/",
-    },
-];  
+  {
+    id: 0,
+    title: "GitHub Profile Detective",
+    description:
+      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    image: githubdetLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    github:
+      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+    webapp: "https://githubprofiledetective.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "CS Prep",
+    description:
+      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+    image: csprepLogo,
+    tags: [
+      "React JS",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    github: "https://github.com/codingmastr/CSPrep",
+    webapp: "https://csprep.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Movie Recommendation App",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: movierecLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+  },
+];
