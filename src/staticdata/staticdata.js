@@ -38,6 +38,7 @@ import sspsLogo from "../assets/education_logo/ssps_logo.png";
 import jecrcLogo from "../assets/education_logo/jecrc_logo.png";
 import WorkfrontLogo from "../assets/tech_logo/workfront_logo.png";
 // import powerappsLogo from '../assets/tech_logo/powerapps_logo'
+import ShoppingKaroLogo from '../assets/work_logo/shopping_karo.png'
 
 export const SkillsInfo = [
   {
@@ -192,7 +193,7 @@ export const projects = [
     title: "Ecommerse Website",
     description:
       "A fully responsive **E-commerce web application** built using **React** and **Tailwind CSS**, featuring an intuitive **Dark Mode** for enhanced UX. Implemented **Context API** for efficient product data management and **Redux Toolkit** for smooth Add-to-Cart state handling. Integrated fast and secure **Clerk authentication (Sign In/Sign Up)** for a production-ready flow. The project also demonstrates modern **React concepts** like **Lazy Loading**, **Reusable Components**, and **Performance Optimization** throughout the application.",
-    image: githubdetLogo,
+    image: ShoppingKaroLogo,
     tags: [
       "React JS",
       "Redux ToolKit",
