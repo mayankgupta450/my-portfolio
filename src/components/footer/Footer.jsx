@@ -36,7 +36,7 @@ const footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/mayank-gupta-74b955182/" },
-            { icon: <FaGithub />, link: "https://www.youtube.com/codingmasteryt" },
+            { icon: <FaGithub />, link: "https://github.com/mayankgupta450?tab=repositories" },
 
           ].map((item, index) => (
             <a

@@ -190,7 +190,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Ecommerse Website",
+    title: "E-commerce Website",
     description:
       "A fully responsive **E-commerce web application** built using **React** and **Tailwind CSS**, featuring an intuitive **Dark Mode** for enhanced UX. Implemented **Context API** for efficient product data management and **Redux Toolkit** for smooth Add-to-Cart state handling. Integrated fast and secure **Clerk authentication (Sign In/Sign Up)** for a production-ready flow. The project also demonstrates modern **React concepts** like **Lazy Loading**, **Reusable Components**, and **Performance Optimization** throughout the application.",
     image: ShoppingKaroLogo,
